@@ -1,0 +1,17 @@
+.MainPosts{
+    background: black;
+    min-height:600px;
+}
+
+.TituloPost{
+    color:rgb(0, 0, 0);
+    background: white;
+    text-align: center;
+}
+
+.TituloError{
+    color:rgb(253, 7, 7);
+    background: white;
+    border-radius:3px;
+    text-align: center;
+}

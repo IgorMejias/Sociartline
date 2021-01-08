@@ -1,0 +1,27 @@
+.Header{
+    background:#000000;
+}
+
+.LogoHeader{
+height:50px;
+width:50px;
+}
+
+
+.DivInicioSesion{
+    height:50px;
+    width:50px;
+    position:fixed;
+    z-index:100;
+    }
+    .CilindroInicioSesion{
+        height:70%;
+        width:70%;
+      border:5px solid rgb(0, 0, 0);
+      border-top-color:rgb(255, 255, 255);
+      border-radius:100%;
+      -webkit-animation:girar 1.5s linear infinite;
+      -o-animation: girar 1.5s linear infinite;
+      animation:girar 1.5s linear infinite;
+    }
+

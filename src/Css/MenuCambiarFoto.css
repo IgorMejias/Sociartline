@@ -1,0 +1,18 @@
+.MenuCambiarFoto{
+    position:fixed;
+    z-index:100000;
+    background:rgb(212, 212, 212);
+    width:400px;
+    height:300px;
+    border-radius:10px;
+    margin-left:30%;
+}
+
+
+
+@media(max-width:768px){
+    .MenuCambiarFoto{
+        width:90%;
+        margin-left:0%;
+    }
+}

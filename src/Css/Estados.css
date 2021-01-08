@@ -1,0 +1,82 @@
+.DivEstado{
+background:rgb(255, 255, 255);
+padding-bottom:0%;
+word-wrap:break-word;
+border-radius: 3px;
+}
+
+.DivEstadoTop{
+    border-style:solid;
+    border-radius:5px;
+    border-color:rgb(192, 192, 192);
+    border-width:1px;
+    text-align:center;
+ 
+}
+
+.ProfilePicEstados{
+    border-radius:100%;
+    border:solid;
+    border-width:1px;
+}
+
+.FotoEstado{
+    cursor: pointer;
+    max-width:100%;
+}
+
+
+.TextoEstado{
+    text-indent:10px;
+   background:white;
+   text-align:left;
+   padding-top:10px;
+}
+
+.OpcionesEstadoBoton{
+    border:none;
+    float: right;
+    background:none;
+}
+.OpcionesEstadoBoton:focus{
+    outline:none;
+    
+}
+
+.MenuOpcionesEstado{
+background:rgb(255, 255, 255);
+ position: absolute;
+right:0;
+ width:120px;
+ padding:5px;
+ border-radius:5px;
+ border-color:rgb(168, 168, 168);
+ border-style:solid;
+ z-index:100;
+}
+
+
+
+.OpcionEstado{
+    display:block;
+   width:100%;
+   border:none;
+   background:white;
+}
+
+.OpcionEstado:focus{
+    outline:none;
+    background:rgb(206, 205, 205);
+}
+
+.ErrorEstado{
+    background: white;
+    width:100%;
+    text-align: center;
+    border-radius:10px;
+}
+
+@media(max-width:768px){
+
+
+}

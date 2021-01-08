@@ -1,0 +1,87 @@
+.MainBusqueda{
+    background-color:rgba(255, 255, 255, 0.863);
+    position: fixed;
+    height:300px;
+    z-index:100;
+    width:23%;
+    border-bottom-left-radius:100px;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+.CerrarBusqueda{
+    border:none;
+    background:rgba(197, 39, 52, 0.842);
+    color:white;
+    padding:10px;
+    width:100%;
+}
+
+.SubmitBuscar{
+color:white;
+background-color:rgb(190, 190, 190);
+background-image:url('Buscar.png');
+background-size:30px 30px;
+background-repeat: no-repeat;
+background-position: center;
+border:none;
+border-bottom-style: solid;
+border-width:1px;
+border-color: rgb(0, 0, 0);
+padding:5px;
+position: absolute;
+width:20%;
+}
+
+.TextoBuscar{
+border:none;
+border-bottom-style: solid;
+border-width:1px;
+width: 80%;
+padding:5px;
+background: rgb(255, 255, 255);
+border-color: rgb(102, 102, 102);
+border-radius:5px;
+}
+
+.TextoBuscar:focus{
+    outline:none;
+}
+
+.ResultadoDiv{
+background: white;
+}
+
+.FotoResultado{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+
+.DivCargaBusqueda{
+    height:50px;
+    width:50px;
+  position:fixed;
+  z-index:100000000;
+  
+    }
+    .CilindroBusqueda{
+        height:70%;
+        width:70%;
+      border:5px solid rgba(255, 255, 255, 0.4);
+      border-top-color:rgb(0, 0, 0);
+      border-radius:100%;
+      -webkit-animation:girar 1.5s linear infinite;
+      -o-animation: girar 1.5s linear infinite;
+      animation:girar 1.5s linear infinite;
+    }
+
+
+@media(max-width:768px){
+    .MainBusqueda{
+        width:100%;
+        z-index:10000000;
+    }
+}
+

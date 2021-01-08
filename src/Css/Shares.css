@@ -1,0 +1,18 @@
+.TextAreaShare{
+    resize:none;
+    width:100%;
+}
+
+.ShareButtons{
+border-style:none;
+padding:5px;
+border-radius:5px;
+color:white;
+}
+
+.CerrarShare{
+    background:rgb(209, 6, 40);
+}
+.Compartir{
+    background:rgb(11, 92, 199); 
+}

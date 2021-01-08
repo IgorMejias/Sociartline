@@ -1,0 +1,107 @@
+
+.LinkNot:hover{
+    text-decoration: none;
+}
+
+.NotificacionesMain{
+background: rgba(223, 222, 222, 0.973);
+position:fixed;
+z-index:1000;
+width:23%;
+height:300px;
+border-radius:5px;
+overflow:scroll;
+overflow-x: hidden;
+border-bottom-left-radius:80px;
+}
+
+.CerrarNot{
+    width:100%;
+    border:none;
+    background:rgb(197, 39, 52);
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    position: sticky;
+}
+
+.NotiDiv{
+    border-radius:10px;
+    padding:5px;
+    margin-bottom:1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.NotNoVista{
+    background:rgb(255, 255, 255);
+}
+.NotNoVista:hover{
+    background:rgb(75, 122, 224);
+}
+
+.NotVista{
+    background:rgb(219, 219, 219);
+}
+.NotVista:hover{
+    background:rgb(75, 122, 224);
+}
+
+.TextoNot{
+color:rgb(0, 0, 0);
+align-self: center;
+background: rgba(255, 255, 255, 0.705);
+border-radius:10px;
+}
+
+
+.NotCont{
+    color:rgb(0, 0, 0);
+    background:white;
+    display:block;
+    width:25px;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.Accion{
+width:35px;
+height:35px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-color:rgba(255, 255, 255, 0.658);
+border-radius:100%;
+background-position: center;
+position: absolute;
+right:3%;
+margin-top:20px;
+}
+
+.AccionComentario{
+background-image:url('Coments.png');
+
+}
+
+.AccionLike{
+    background-image:url('Liked.png'); 
+}
+
+.AccionCompartir{
+ background-image:url('Share.png');  
+}
+
+.VistaTexto{
+    position: absolute;
+    right:0;
+}
+
+@media(max-width:768px){
+
+.NotificacionesMain{
+    width:100%;
+    background: white;
+    z-index:1000000;
+}
+
+}

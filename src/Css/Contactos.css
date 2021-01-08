@@ -1,0 +1,53 @@
+.ContactsMainDiv{
+    overflow:scroll;
+    overflow-x: hidden;
+    background:rgb(226, 226, 226);
+    position: fixed;
+    width:400px;
+    border-bottom-left-radius:60px;
+    height:300px;
+    z-index:100;
+}
+
+.ContactsAbrir{
+    width:50px;
+    height:50px;
+    border-radius:100%;
+    position: fixed;
+    margin-top:50px;
+    z-index:50;
+    border:none;
+    background-image:url('Contactos.png');
+    background-size:100% 100%;
+    
+}
+
+.ContactsCerrar{
+   position: absolute;
+    right:0;
+    border:none;
+    background: red;
+    color:white;
+    padding:5px;
+    border-radius:5px;
+}
+
+.ContactDiv{
+cursor: pointer;
+background: rgb(250, 250, 250);
+margin-bottom: 1px;
+}
+
+.ContactDiv:hover{
+    background: rgb(201, 201, 201);
+}
+
+@media(max-width:768px){
+    .ContactsMainDiv{
+        width:80%;
+    }
+
+    .ContactsAbrir{
+        margin-top: 0px;
+    }
+}

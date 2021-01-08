@@ -1,0 +1,46 @@
+.MainConfiguracion{
+    background: black;
+    height:600px;
+}
+
+.FormConfig{
+    background:rgb(255, 255, 255);
+    margin-top:2px;
+    border-radius:5px;
+    padding: 10px;
+}
+
+.LabelConfig{
+    background: rgb(224, 224, 224);
+}
+
+.TextConfig{
+text-align: center;
+width:100%;
+padding: 5px;
+}
+
+.TextConfig:focus{
+    outline: none;
+}
+
+.TextAreaConfig{
+    resize:none;
+    width:100%;
+    text-align: center;
+}
+
+.TextAreaConfig:focus{
+    outline: none;
+}
+
+.SaveConfig{
+background: rgb(52, 110, 235);
+border:none;
+margin-left:2px;
+border-radius:5px;
+color:white;
+display: block;
+width:100%;
+padding:5px;
+}

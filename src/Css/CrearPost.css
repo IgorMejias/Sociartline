@@ -1,0 +1,39 @@
+.CrearPost{
+  width:100%;
+    z-index:1000;
+}
+
+.FormPost{
+    background:rgb(201, 201, 201);
+    border-radius:3px;
+}
+
+.DivArchivoPost{
+position: absolute;
+z-index:10000;
+width:40px;
+height:40px;
+margin-left:81%;
+background:url('CambiarFoto.png');
+background-size:100% 100%;
+background-position:center;
+background-repeat:no-repeat;
+border:solid 3px;
+border-radius:100%;
+background-color:rgba(75, 115, 226, 0.4);
+cursor: pointer;
+}
+
+.DivArchivoPost:hover{
+border-color:rgb(41, 50, 102);
+}
+
+.ArchivoPost{
+width:100%;
+opacity:0;
+cursor: pointer;
+}
+
+.TextAreaPost{
+    resize:none;
+}

@@ -1,0 +1,64 @@
+.StatsDiv{
+background:rgb(226, 226, 226);
+border-style:solid;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border-color:rgb(207, 207, 207);
+border-bottom-style:none;
+}
+
+
+
+.Stats{
+margin-top:2px;
+ height:30px;
+ width:30px;
+ border-radius:10px;
+ border-style:none;
+ background-color:rgb(255, 255, 255);
+ background-size:100% 100%;
+ background-position:center;
+ background-repeat:no-repeat;
+ margin-right:4px;
+
+}
+
+.Stats:hover{
+background-color: rgb(223, 223, 223);
+}
+
+.Stats:focus{
+    outline:none;
+}
+
+.Coments{
+    background-image:url('Coments.png');
+}
+
+.Unliked{
+    background-image:url('Likes.png');
+}
+
+.Liked{
+    background-image:url('Liked.png'); 
+}
+
+.Share{
+    background-image:url('Share.png');
+}
+
+.MostrarComentarios{
+    border-style:none;
+    
+}
+
+.Comentar{
+    resize:none;
+}
+@media(max-width:320px){
+    .Stats{
+        height:25px;
+        width:25px;
+    }
+ 
+}

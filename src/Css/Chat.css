@@ -1,0 +1,44 @@
+.MainChat{
+  height:600px;
+}
+
+.TextAreaMensaje{
+  resize:none;
+  width:50%;
+  border-radius:10px;
+  border:none;
+}
+.TextAreaMensaje:focus{
+  outline:none;
+}
+
+.EnviarMensaje{
+  position: absolute;
+  margin-left:-50px;
+  margin-top:7px;
+  border-radius:100%;
+  width:42px;
+  height:40px;
+  border-style:none;
+  background-color:rgb(190, 190, 190);
+  background-image:url('Enviar.png');
+  background-size:60% 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@media(max-width:768px){
+.TextAreaMensaje{
+ width:100%;
+}
+}
+
+@media(max-width:320px){
+  .MainChat{
+    height:450px;
+  }
+}
+
+
+

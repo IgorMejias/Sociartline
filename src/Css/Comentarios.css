@@ -1,0 +1,13 @@
+.DivComentarios{
+    background:rgb(255, 255, 255);
+    border-radius:5px;
+}
+
+.Comentario{
+
+    border-radius:5px;
+    border-color:rgb(53, 105, 218);
+    border-style:solid;
+    border-width:1px;
+    margin-bottom:5px;
+}

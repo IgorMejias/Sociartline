@@ -1,0 +1,85 @@
+.MainConversacion{
+    overflow:scroll;
+    overflow-x: hidden;
+   height:460px;
+   border-style:solid;
+   border-width:1px;
+   border-radius:10px;
+   border-color:rgb(190, 189, 189);
+   background:white;
+   width:650px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.MensajePropio{
+    background: rgb(0, 119, 255);
+    float: left;
+    margin-right:50%;
+}
+
+.MensajeOtro{
+    background: rgb(226, 21, 48);
+    float: right;
+    margin-left:50%;
+}
+
+.Mensaje{
+    word-wrap: break-word;
+    display:block;
+    padding:6px;
+    border-radius:15px;
+    color:white;
+    width:fit-content;
+    max-width:50%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.DivCargaConversacion{
+    height:50px;
+    width:50px;
+  position: absolute;
+
+  z-index:100000000;
+    }
+
+.CilindroConversacion{
+    height:70%;
+    width:70%;
+  border:5px solid rgba(255, 255, 255, 0.4);
+  border-top-color:rgb(0, 0, 0);
+  border-radius:100%;
+    -webkit-animation:girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation:girar 1.5s linear infinite;
+}
+
+.EstadoMensajeDiv{
+    text-align:center;
+    width:100%;
+    position: absolute;
+    margin-top:-30px;
+}
+
+.TextoEstadoMensaje{
+    color:rgb(0, 0, 0);
+    
+}
+
+
+@media(max-width:768px){
+.Mensaje{
+    max-width:68%;
+}
+.MainConversacion{
+    width:100%;
+}
+}
+
+@media(max-width:480px){
+    .MainConversacion{
+       height:300px;
+    }  
+}

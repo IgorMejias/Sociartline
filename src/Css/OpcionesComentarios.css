@@ -1,0 +1,28 @@
+.MainOpcionesCM{
+    float:right;
+}
+
+.BotonOpciones{
+   color: rgb(17, 69, 167);
+   border:none;
+   background:none;
+}
+
+.DivOCM{
+    position: absolute;
+    margin-left:-25px;
+}
+
+.BotonOpciones:focus{
+    outline:none;
+}
+
+.OpcionCM{
+    display:block;
+    background:rgb(255, 255, 255);
+    border-color:rgb(219, 219, 219);
+    border-style:solid;
+    text-align:center;
+    width:80px;
+    border-radius:5px;
+}

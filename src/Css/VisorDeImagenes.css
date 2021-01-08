@@ -1,0 +1,21 @@
+
+.DivVI{
+    z-index:1000;
+    position: fixed;
+    background:black;
+    height:100%;
+    }
+    
+    .VI{
+       max-height:90%;
+       max-width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+        align-self:center;
+    }
+
+    .CerrarVisor{
+    z-index:100000;
+    margin-top:100px;
+    }

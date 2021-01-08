@@ -1,0 +1,40 @@
+
+
+.NombreContacto{
+    background:rgba(255, 255, 255, 0.685);
+    border-radius:10px;
+}
+
+.FotoContacto{
+    height:50px;
+    width:50px;
+    border-radius:10%;
+    cursor: pointer;
+    z-index:100;
+}
+
+.MensajesSin{
+    position: absolute;
+    margin-left:-20px;
+    text-align: center;
+    background:white;
+    height:25px;
+    width:25px;
+    border-style:solid;
+    border-width:1px;
+    border-radius:5px;
+    color:rgb(7, 138, 245);
+
+}
+
+@media(max-width:768px){
+    .FotoContacto{
+        height:50px;
+        width:50px;
+    }
+    .MensajesSin{
+        position: absolute;
+        margin-left:-10px;
+    }
+    
+}

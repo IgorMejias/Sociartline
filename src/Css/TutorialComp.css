@@ -1,0 +1,55 @@
+.MainTutorial{
+background: rgba(0, 0, 0, 0.342);
+    position: fixed;
+    z-index:100000000;
+    width:100%;
+    height:100%;
+}
+
+.TutorialDiv{
+height:80%;
+width:70%;
+background: rgb(243, 243, 243);
+margin-left: auto;
+margin-right: auto;
+margin-top:5%;
+border-radius:3px;
+text-align: center;
+}
+
+
+.FotoTuto{
+width:300px;
+height:300px;
+
+}
+
+.Siguiente{
+padding:5px;
+border-radius:5px;
+color:white;
+background: rgb(13, 101, 201);
+border:none;
+margin-top:3%;
+}
+
+.Finalizar{
+    padding:5px;
+    border-radius:5px;
+    color:white;
+    background: rgb(201, 13, 29);
+    border:none;
+    margin-top:3%;
+}
+
+@media(max-width:768px){
+    .TutorialDiv{
+        width: 100%;
+        margin-top:7%;
+    }
+        
+        .FotoTuto{
+        width:150px;
+        height:150px;
+        }
+}
